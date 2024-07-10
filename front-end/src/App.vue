@@ -21,7 +21,6 @@ export default {
         }
         )
         .then(response => {
-          console.log(response)
           products.value = response.data.data;
           totalPages.value = response.data.totalPages;
         })
